@@ -1,0 +1,1262 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #fcf5eb;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    background-color: #fcf5eb;
+    outline: auto;
+    padding: 12px 16px;
+    border-bottom: 0px;
+    color: transparent;
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 40px;
+    color: rgb(8, 9, 9);
+
+}
+
+
+.web {
+    margin-left: 110px;
+}
+
+.whatsapp {
+    margin-left: 10px;
+
+}
+
+.features {
+    margin-left: 400px;
+}
+
+.fe {
+    height: 2px;
+    width: 20px;
+    background: rgb(13, 223, 153);
+    visibility: hidden;
+    transition: 1s;
+}
+
+.features:hover .fe {
+    width: 65px;
+    visibility: visible;
+}
+
+.pri:hover .fe {
+    width: 55px;
+    visibility: visible;
+}
+
+.hel:hover .fe {
+    width: 90px;
+    visibility: visible;
+}
+
+.bl:hover .fe {
+    width: 35px;
+    visibility: visible;
+}
+
+.bus:hover .fe {
+    width: 95px;
+    visibility: visible;
+}
+
+.web:hover .fe {
+    width: 110px;
+    visibility: visible;
+}
+
+
+.download {
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 15px 20px;
+    background-color: rgb(13, 223, 153);
+}
+
+
+
+.image {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 720px;
+    width: 98%;
+    border-radius: 45px;
+
+}
+
+/*  */
+@keyframes coffee {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.coffee {
+    position: absolute;
+    left: 860px;
+    top: 160px;
+    animation-name: coffee;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes chat {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+/* good morning mom*/
+.chat {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 860px;
+    top: 120px;
+    animation-name: chat;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes two {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.two {
+    position: absolute;
+    height: 280px;
+    width: 470px;
+    top: 350px;
+    left: 900px;
+    animation-name: two;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+}
+
+@keyframes voicemail {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.voicemail {
+    position: absolute;
+    height: 50px;
+    width: 440px;
+    left: 900px;
+    top: 290px;
+    animation-name: voicemail;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes message {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.message {
+    position: absolute;
+    height: 50px;
+    width: 440px;
+    left: 900px;
+    top: 650px;
+    animation-name: message;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+}
+
+@keyframes emoji {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+/* emoji */
+.emoji {
+    position: absolute;
+    height: 50px;
+    width: 399px;
+    top: 599px;
+    left: 900px;
+    animation-name: emoji;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes emoji {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+/* dill */
+.heart {
+    position: absolute;
+    width: 500px;
+    height: 48px;
+    left: 860px;
+    top: 145px;
+    animation-name: emoji;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+/* message privately */
+.privately {
+    font-size: 90px;
+    position: absolute;
+    z-index: +1;
+    color: rgb(240, 235, 235);
+    top: 255px;
+    left: 205px;
+}
+
+.simple {
+    position: absolute;
+    top: 470px;
+    left: 200px;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+.button {
+    position: absolute;
+    padding: 15px 30px;
+    left: 250px;
+    top: 700px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: rgb(13, 223, 153);
+    border: 0px solid white;
+}
+
+#practice {
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqAjPjC2iVCRECXTj2PSwC4hioGcVmzau3Q&usqp=CAU")
+}
+
+/* images */
+@keyframes images {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.images {
+    height: 300px;
+    width: 1400px;
+    margin-left: 80px;
+    margin-top: 20px;
+    animation-name: images;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-delay: 1s;
+}
+
+/* private */
+@keyframes private {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.private {
+    font-size: 40px;
+    margin-left: 450px;
+    animation-name: private;
+    animation-duration: 1.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+/* are */
+@keyframes are {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.are {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 100px;
+    animation-name: are;
+    animation-duration: 1.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+/* bonjour */
+@keyframes bonjour {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.bonjour {
+    height: 300px;
+    width: 1400px;
+    margin-left: 60px;
+    margin-top: 50px;
+    animation-name: bonjour;
+    animation-delay: 1.9s;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+#data {
+    margin-left: 77%;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+@keyframes whatsappcall {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.whatsappcall {
+    height: 750px;
+    width: 380px;
+    margin-left: 850px;
+    margin-top: 100px;
+    animation-name: whatsappcall;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* never */
+@keyframes never {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.never {
+    font-size: 70px;
+    margin-top: -600px;
+    margin-left: 200px;
+    animation-name: never;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes from {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.from {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 205px;
+    animation-name: from;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes learn {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.learn {
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 20px;
+    animation-name: from;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.le {
+    height: 2px;
+    width: 2px;
+    background: rgb(13, 223, 153);
+    visibility: hidden;
+    transition: 1s;
+}
+
+.learn:hover .le {
+    width: 60px;
+    visibility: visible;
+}
+
+
+.container1 {
+    background-color: #111B21;
+    border: 2px solid black;
+    height: 800px;
+    width: 1520px;
+    margin-top: 100px;
+}
+
+/* anika */
+@keyframes anika {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.anika {
+    height: 650px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 200px;
+    animation-name: anika;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* speak*/
+@keyframes speak {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.speak {
+    margin-left: 800px;
+    margin-top: -510px;
+    color: #fff;
+    font-size: 60px;
+    animation-name: speak;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+/* freely */
+@keyframes freely {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.freely {
+    margin-left: 800px;
+    color: #25d366;
+    font-size: 60px;
+    animation-name: freely;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* with */
+@keyframes with {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.with {
+    margin-left: 800px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    animation-name: with;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* learn2 */
+@keyframes learn2 {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.learn2 {
+    margin-left: 810px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    animation-name: learn2;
+    animation-delay: 1s;
+    animation-duration: 2.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+/* .bestfriend */
+@keyframes bestfriend {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.bestfriend {
+    position: relative;
+    height: 550px;
+    width: 390px;
+    left: 730px;
+    top: 165px;
+    z-index: 1;
+    animation-name: group;
+    animation-delay: 1s;
+    animation-duration: 2.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* group */
+@keyframes group {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.group {
+    position: absolute;
+    height: 750px;
+    width: 400px;
+    left: 750px;
+    top: 435%;
+    animation-name: group;
+    animation-delay: 1s;
+    animation-duration: 2.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes keep {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.keep {
+    position: absolute;
+    left: 220px;
+    top: 457%;
+    font-size: 55px;
+    color: #040404;
+    animation-name: keep;
+    animation-delay: 1s;
+    animation-duration: 2.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes whether {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.whether {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -170px;
+    font-size: 17px;
+    color: #040404;
+    animation-name: whether;
+    animation-delay: 1s;
+    animation-duration: 2.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* learn3 */
+@keyframes learn3 {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.learn3 {
+    position: absolute;
+    left: 225px;
+    top: 485%;
+    font-size: 18px;
+    animation-name: whether;
+    animation-delay: 1s;
+    animation-duration: 2.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* say */
+@keyframes say {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+.say {
+    font-size: 60px;
+    animation-name: say;
+    animation-delay: 1s;
+    animation-duration: 3.1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+/* express */
+@keyframes express {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.express{
+    animation-name: say;
+    animation-delay: 1s;
+    animation-duration: 3.1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+
+.content4 {
+    margin-left: 800px;
+    margin-top: -80px;
+}
+
+/* learn4 */
+@keyframes learn4 {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.learn4 {
+    margin-top: 30px;
+    font-size: 18px;
+    animation-name: say;
+    animation-delay: 1s;
+    animation-duration: 3.1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/* women */
+@keyframes women {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.women {
+    position: relative;
+    height: 650px;
+    width: 350px;
+    left: 300px;
+    top: 450px;
+    animation-name: women;
+    animation-delay: 1s;
+    animation-duration: 3.1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/* emoji1 */
+@keyframes emoji1 {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.emoji1 {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    left: 300px;
+    top: 575%;
+    z-index: 1;
+    animation-name: emoji1;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+/* catalog */
+@keyframes catalog {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.catalog {
+    height: 700px;
+    width: 360px;
+    margin-top: 400px;
+    margin-left: 850px;
+    animation-name: catalog;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/* transform */
+@keyframes transform {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.transform {
+    font-size: 60px;
+    margin-top: -550px;
+    margin-left: 250px;
+    animation-name: transform;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/* whatsapp2 words*/
+@keyframes whatsapp2 {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.whatsapp2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 250px;
+    animation-name: whatsapp2;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/* learn5 */
+@keyframes learn5 {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+.learn5 {
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: 20px;
+    animation-name: learn5;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.secondlast {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    border: 0px solid black;
+    z-index: 1;
+    top: 300px;
+    background-color: #daf5ce;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 65px;
+}
+
+
+
+
+.contact {
+    position: absolute;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.secondlast1 {
+    position: absolute;
+    height: 340px;
+    width: 480px;
+    left: 550px;
+    border-radius: 40px;
+    border: 1px solid white;
+    top: 100px;
+    background-color: whitesmoke;
+
+}
+
+.now {
+    position: absolute;
+    font-size: 30px;
+    left: 60px;
+    top: 70px;
+}
+
+.smallwhatsapplogo {
+    position: absolute;
+    left: 60px;
+    top: 35px;
+}
+
+.for {
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    font-size: 16px;
+}
+
+.readmorebutton {
+    position: absolute;
+    top: 235px;
+    left: 50px;
+    padding: 15px 18px;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+
+.secondlast2 {
+    position: relative;
+    height: 340px;
+    width: 480px;
+    left: 1040px;
+    border-radius: 40px;
+    border: 1px solid white;
+    top: 100px;
+    background-color: whitesmoke;
+}
+
+.smallwhatsapplogo2 {
+    position: absolute;
+    left: 60px;
+    top: 35px;
+}
+
+.lock {
+    position: absolute;
+    font-size: 30px;
+    left: 60px;
+    top: 70px;
+}
+
+.our {
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    font-size: 16px;
+}
+
+.readmorebutton1 {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    padding: 15px 18px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.last {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    border: 0px solid black;
+    top: 200px;
+    background-color: #0b0b0b;
+
+}
+
+.whatsappimage {
+    position: absolute;
+    color: aliceblue;
+    top: 200px;
+    left: 230px;
+    height: 55px;
+    width: 230px;
+}
+
+.dowmload2 {
+    position: absolute;
+    color: white;
+    top: 370px;
+    left: 220px;
+    font-size: 20px;
+    background-color: #25d366;
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: 0px solid black
+}
+
+.lastwhatwedo {
+    position: absolute;
+    color: aliceblue;
+    top: 140px;
+    left: 580px;
+}
+
+.whatwedo {
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.features1 {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.whoweare {
+    position: absolute;
+    color: aliceblue;
+    top: 140px;
+    left: 800px;
+
+}
+
+.aboutus {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.usewhatsapp {
+    position: absolute;
+    color: aliceblue;
+    top: 140px;
+    left: 1000px;
+}
+
+.android {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.needhelp {
+    position: absolute;
+    top: 140px;
+    color: #fff;
+    left: 1230px;
+}
+
+.helpcenter {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.llc {
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    top: 692px;
+    left: 200px;
+}
+
+.term {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    top: 690px;
+    left: 400px;
+}
+
+#tw {
+    margin-top: 700px;
+    margin-left: 600px;
+}
+
+#ytlogo {
+    margin-top: 700px;
+    margin-left: 100px;
+}
+
+#insta {
+    margin-top: 700px;
+    margin-left: 100px;
+}
+
+#fb {
+    margin-top: 700px;
+    margin-left: 100px;
+}
+
+.button1 {
+    position: absolute;
+    padding: 20px 60px 15px;
+    top: 675px;
+    left: 1200px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.line {
+    position: absolute;
+    border: 2px solid rgb(134, 163, 135);
+    height: -1px;
+    width: 80%;
+    top: 600px;
+    left: 200px;
+
+}
